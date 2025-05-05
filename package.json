@@ -17,7 +17,8 @@
   "scripts": {
     "build": "microbundle",
     "start": "microbundle watch",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "prepare": "yarn build"
   },
   "peerDependencies": {
     "react": ">=17.0.2"
